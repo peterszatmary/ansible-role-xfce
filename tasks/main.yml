@@ -9,8 +9,5 @@
     - tango-icon-theme
     - lightdm
 
-- name: set XFCE as default in lightdm
-  shell: /usr/lib/lightdm/lightdm-set-defaults --session xfce4-session
-
 - name: set default session in lightdm to xfce
   file: src=../files/50-unity-greeter.conf dest=/usr/share/lightdm/lightdm.conf.d/50-unity-greeter.conf backup=yes
