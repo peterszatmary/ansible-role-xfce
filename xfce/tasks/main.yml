@@ -1,0 +1,14 @@
+---
+# tasks file for xfce
+- name: Install XFCE packages
+  apt: name={{ pkg }} state=present
+  with_pkgs:
+    - xfce4
+    - xfce4-goodies
+    - gnome-icon-theme-full
+    - tango-icon-theme
+    - gdm   
+
+- name: Make login manager run on startup
+  command: update-rc.d gdm defaults
+
