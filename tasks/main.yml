@@ -7,8 +7,7 @@
     - xfce4-goodies
     - gnome-icon-theme-full
     - tango-icon-theme
-    - gdm   
+    - lightdm
 
-- name: Make login manager run on startup
-  command: update-rc.d gdm defaults
-
+- name: set XFCE as default in lightdm
+  command: /usr/lib/lightdm/lightdm-set-defaults --session xfce4-session

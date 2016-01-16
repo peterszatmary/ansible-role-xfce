@@ -1,7 +1,7 @@
 ---
 galaxy_info:
   author: James Smaldon
-  description: Installs the XFCE window manager and the gnome login manager on Ubuntu.
+  description: Installs the XFCE window manager and lightdm login manager on Ubuntu.
   company: None
   license: BSD
   min_ansible_version: 1.4

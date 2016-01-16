@@ -1,7 +1,7 @@
 Role Name
 ========
 
-Installs the XFCE window manager and the gnome login manger on Ubuntu.
+Installs the XFCE window manager and the lightdm login manager on Ubuntu.
 This role is intended to be used to set up developer environments where 
 X windows is required.
 
