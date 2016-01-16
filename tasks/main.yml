@@ -10,4 +10,4 @@
     - lightdm
 
 - name: set default session in lightdm to xfce
-  file: src=../files/50-unity-greeter.conf dest=/usr/share/lightdm/lightdm.conf.d/50-unity-greeter.conf backup=yes
+  copy: src=../files/50-unity-greeter.conf dest=/usr/share/lightdm/lightdm.conf.d/50-unity-greeter.conf backup=yes
