@@ -1,8 +1,8 @@
 ---
 # tasks file for xfce
 - name: Install XFCE packages
-  apt: name={{ pkg }} state=present
-  with_pkgs:
+  apt: name={{ item }} state=present
+  with_items:
     - xfce4
     - xfce4-goodies
     - gnome-icon-theme-full
