@@ -8,7 +8,7 @@ Example Playbook
 ----------------
     - hosts: all
       roles:
-         - PeterSzatmary.xfce
+         - peterszatmary.xfce
 
 License
 -------
