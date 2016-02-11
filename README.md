@@ -1,15 +1,14 @@
 Role Name
 ========
 
-Installs the XFCE window manager and the lightdm login manager on Ubuntu.
-This role is intended to be used to set up developer environments where 
-X windows is required.
+Installs the XFCE window manager for at least Generic Linux.
+Tested with Linux Mint.
 
 Example Playbook
 ----------------
-    - hosts: servers
+    - hosts: all
       roles:
-         - JamesSmaldon.xfce
+         - PeterSzatmary.xfce
 
 License
 -------
@@ -19,4 +18,4 @@ BSD
 Author Information
 ------------------
 
-James Smaldon
+Peter Szatmary

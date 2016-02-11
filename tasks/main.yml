@@ -1,16 +1,18 @@
 ---
 # tasks file for xfce
 - name: Install XFCE packages
-  apt: name={{ item }} state=present
+  general: name={{ item }} state=present # package is more general
   with_items:
     - xfce4
     - xfce4-goodies
-    - gnome-icon-theme-full
+    - gnome-icon-theme # gnome-icon-theme-full was deleted
     - tango-icon-theme
     - lightdm
 
 - name: set default session in lightdm to xfce
   copy: src=../files/50-unity-greeter.conf dest=/usr/share/lightdm/lightdm.conf.d/50-unity-greeter.conf backup=yes
+  ignore_errors: yes
 
 - name: start lightdm
   service: name=lightdm state=started
+  ignore_errors: yes

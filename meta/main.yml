@@ -1,7 +1,7 @@
 ---
 galaxy_info:
-  author: James Smaldon
-  description: Installs the XFCE window manager and lightdm login manager on Ubuntu.
+  author: Peter Szatmary
+  description: Installs the XFCE window manager and lightdm login manager on Generic Linux.
   company: None
   license: BSD
   min_ansible_version: 1.4
