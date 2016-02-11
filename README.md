@@ -13,6 +13,10 @@ Example Playbook
 License
 -------
 
+No licence. Take it free if you wish.
+
+
+
 BSD
 
 Author Information
