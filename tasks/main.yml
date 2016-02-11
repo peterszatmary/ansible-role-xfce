@@ -1,7 +1,7 @@
 ---
 # tasks file for xfce
 - name: Install XFCE packages
-  general: name={{ item }} state=present # package is more general
+  package: name={{ item }} state=present # package is more general
   with_items:
     - xfce4
     - xfce4-goodies
