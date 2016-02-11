@@ -6,9 +6,9 @@ galaxy_info:
   license: BSD
   min_ansible_version: 1.4
   platforms:
-   - name: Ubuntu
+   - name: Generic Linux
      versions:
-      - trusty
+      - all
   categories:
    - development
    - system

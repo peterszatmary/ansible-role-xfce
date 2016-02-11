@@ -10,6 +10,11 @@ Example Playbook
       roles:
          - peterszatmary.xfce
 
+Whats new in this fork
+-----------------------
+
+- i had problem with old one
+
 License
 -------
 
