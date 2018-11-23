@@ -17,7 +17,7 @@ Example Playbook
 Whats new in this fork
 -----------------------
 
--  I had problem with old one
+-   I had problem with old one
 
 License
 -------
